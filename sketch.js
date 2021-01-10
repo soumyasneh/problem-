@@ -10,10 +10,10 @@ var light,crystal;
 var drops = [];
 
 function preload(){
- bgimg=loadImage("images/bg.jpeg"); 
- animation=loadAnimation("images/Walking Frame/walking_1.png","images/Walking Frame/walking_2.png","images/Walking Frame/walking_3.png","images/Walking Frame/walking_4.png","images/Walking Frame/walking_5.png","images/Walking Frame/walking_6.png","images/Walking Frame/walking_7.png","images/Walking Frame/walking_8.png");  
+ bgimg=loadImage("bg.jpeg"); 
+ animation=loadAnimation("walking_1.png","walking_2.png","walking_3.png","walking_4.png","walking_5.png","walking_6.png","walking_7.png","walking_8.png");  
  //crystal=loadAnimation("images/thuderbolt/1.png","images/thuderbolt/2.png","images/thuderbolt/2.png","images/thuderbolt/4.png");
-crystal=loadAnimation("images/thunderbolt/1.png","images/thunderbolt/2.png","images/thunderbolt/3.png","images/thunderbolt/4.png");
+crystal=loadAnimation("1.png","2.png","3.png","4.png");
 }
 
 function setup(){
